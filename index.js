@@ -6,7 +6,7 @@ var apis = {
         title: 'Website',
         url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
     },
-    bot : {
+    discordbot : {
         title: 'Main bot host',
         url: 'https://phoenix-disord-code.glitch.me'
     },
@@ -18,7 +18,7 @@ var githubProject = 'PhoenixDiscord/status';
 //Github URLs
 var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'
 var issuesHtmlUrl = 'https://github.com/'+githubProject+'/issues?q=';
-var newIssueUrl = 'https://github.com/'+githubProject+'/issues/new';
+var newIssueUrl = 'https://github.com/'+githubProject+'/issues/new/choose';
 
 //just a convenient shortcut
 var e = React.createElement
