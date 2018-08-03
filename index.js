@@ -2,10 +2,13 @@
 //Please make sure that those endpoints allow crossdomain calls, or be sure
 //to host this site in the same domain as your API (and set `document.domain` correspondingly)
 var apis = {
-    github : {
-        title: 'Github Public API (not our own but we couldnt live without it)',
-        url: 'https://api.github.com/users/PhoenixDiscord' //replace this with your own API endpoints
-    }
+    website : {
+        title: 'Website',
+        url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
+    },
+    bot : {
+       title: 'Main Bot Host',
+       url: 'https://phoenixdiscord-code.glitch.me/'
 };
 
 //Replace this with your status page project name
@@ -180,11 +183,11 @@ var StatusList = React.createClass({
                     [e('i',{className : 'fa '+icon}),' ',e('span',null,text)])
             }
             if (this.state[key] === undefined)
-                statusBadge = makeBadge('grey','fa-spin fa-refresh',' waiting for response')
+                statusBadge = makeBadge('grey','fa-spin fa-refresh',' Waiting for response')
             else if (this.state[key] && this.state[key] == 'success')
-                statusBadge = makeBadge('green','fa-check','everything seems okay')
+                statusBadge = makeBadge('green','fa-check','Operational')
             else
-                statusBadge = makeBadge('red','fa-times','an error occurred')
+                statusBadge = makeBadge('red','fa-times','An error occurred')
             return e('li',{className : 'list-group-item',key : key},
                 [,
                  e('span',{key : 'title'},site.title),
@@ -197,8 +200,8 @@ var StatusList = React.createClass({
         if (items.length)
             apiStatuses = [
             e('hr',{key : 'hr'}),
-            e('h2',{},'Reachability of APIs'),
-            e('p',{},'Please note: This only reflects the reachability of our APIs from your computer.'),
+            e('h2',{},'Reachability of Services'),
+            e('p',{},'Please note: This only reflects the reachability of our Services from your computer.'),
             e('ul',{key : 'statuses',className : 'list-group'},items),
             e('a',{'href' : newIssueUrl},'report an incident')
             ];
