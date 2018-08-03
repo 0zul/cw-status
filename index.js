@@ -8,7 +8,7 @@ var apis = {
     },
     bot : {
         title: 'Main bot host',
-        url: 'https://phoenixdisord-code.glitch.me'
+        url: 'https://phoenix-disord-code.glitch.me'
     },
 };
 
