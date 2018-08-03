@@ -7,8 +7,8 @@ var apis = {
         url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
     },
     discordbot : {
-        title: 'Main bot host',
-        url: 'https://phoenix-disord-code.glitch.me'
+        title: 'Main bot host (Music)',
+        url: 'https://phoenix-music.glitch.me'
     },
 };
 
