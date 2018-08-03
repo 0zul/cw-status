@@ -6,14 +6,10 @@ var apis = {
         title: 'Website',
         url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
     },
-    discordbot : {
-        title: 'Main bot host (Music)',
-        url: 'https://phoenix-music.glitch.me'
-    },
 };
 
 //Replace this with your status page project name
-var githubProject = 'PhoenixDiscord/status';
+var githubProject = 'PhoenixStatus/phoenixstatus.github.io';
 
 //Github URLs
 var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'
