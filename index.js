@@ -4,12 +4,12 @@
 var apis = {
     github : {
         title: 'Github Public API (not our own but we couldnt live without it)',
-        url: 'https://api.github.com/users' //replace this with your own API endpoints
+        url: 'https://api.github.com/users/PhoenixDiscord' //replace this with your own API endpoints
     }
 };
 
 //Replace this with your status page project name
-var githubProject = 'adewes/battle-stations';
+var githubProject = 'PhoenixDiscord/status';
 
 //Github URLs
 var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'
