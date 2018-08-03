@@ -6,6 +6,10 @@ var apis = {
         title: 'Website',
         url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
     },
+    bot : {
+        title: 'Main bot host',
+        url: 'https://phoenixdisord-code.glitch.me'
+    },
 };
 
 //Replace this with your status page project name
