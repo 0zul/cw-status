@@ -4,11 +4,11 @@
 var apis = {
     website : {
         title: 'Website',
-        url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
+        url: 'https://phoenixdiscord.glitch.me', //replace this with your own API endpoints
     },
     bot : {
         title: 'Main bot host',
-        url: 'https://phoenix-disord-code.glitch.me'
+        url: 'https://phoenix-disord-code.glitch.me',
     },
 };
 
