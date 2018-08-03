@@ -5,7 +5,7 @@ var apis = {
     website : {
         title: 'Website',
         url: 'https://phoenixdiscord.glitch.me' //replace this with your own API endpoints
-    }
+    },
 };
 
 //Replace this with your status page project name
