@@ -1,6 +1,7 @@
 ---
 name: Report a incident
-about: Note: Don't forget to add the "incident" tag!
+about: Note: Don't forget to add the "incident" label!
+
 
 ---
 
