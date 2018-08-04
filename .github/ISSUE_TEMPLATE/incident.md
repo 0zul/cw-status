@@ -9,4 +9,4 @@ Say there what is happening.
 
 ____________________________________________
 
-Contact us on [Discord](http://discord.gg/7QH4YeD)
+Contact us on Discord. http://discord.gg/7QH4YeD
