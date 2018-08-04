@@ -1,7 +1,6 @@
 ---
 name: Report a incident
-about: Report a incident that will be showed up on the website. Bot developers will
-  see it and will try to fix the problem.
+about: Note: Don't forget to add the "incident" tag!
 
 ---
 
