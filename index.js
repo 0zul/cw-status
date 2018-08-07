@@ -4,7 +4,7 @@
 var apis = {
     website : {
         title: 'Website',
-        url: 'http://phoenixdiscord.tk' //replace this with your own API endpoints
+        url: 'https://phoenixdiscord.tk' //replace this with your own API endpoints
     },
     glitchapi : {
           title: 'Main bot host\'s API',
