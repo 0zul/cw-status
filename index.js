@@ -8,7 +8,7 @@ var apis = {
     },
     server : {
           title: 'Minecraft Server',
-          url: 'http://mine.gg'
+          url: 'https://www.omgserv.com'
     }
 };
 
