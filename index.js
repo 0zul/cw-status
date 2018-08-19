@@ -4,20 +4,16 @@
 var apis = {
     website : {
         title: 'Website',
-        url: 'https://phoenixdiscord.tk' //replace this with your own API endpoints
+        url: 'http://customworld.ml' //replace this with your own API endpoints
     },
-    glitchapi : {
-          title: 'Main bot host\'s API',
-          url: 'https://api.glitch.com'
-    },
-    githubapi : {
-          title: 'Website host\'s API',
-          url: 'https://api.github.com'
+    server : {
+          title: 'Minecraft Server',
+          url: 'http://customworld.mine.gg:10168'
     }
 };
 
 //Replace this with your status page project name
-var githubProject = 'PhoenixStatus/phoenixstatus.github.io';
+var githubProject = 'PhoenixDiscord/cw-status';
 
 //Github URLs
 var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'
